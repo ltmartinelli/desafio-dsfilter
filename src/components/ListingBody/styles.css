@@ -1,0 +1,8 @@
+main{
+    background-color: var(--color-tertiary);
+}
+
+.listing-body-content{
+    display: grid;
+    row-gap: 20px;
+}

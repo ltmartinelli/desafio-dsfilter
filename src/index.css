@@ -18,3 +18,16 @@ a:hover {
   text-decoration: none;
   color: unset;
 }
+
+.container{
+  max-width: 960px;
+  width:100%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+section{
+  background-color: var(--color-secondary);
+  border-radius: 5px;
+  padding: 20px;
+}
