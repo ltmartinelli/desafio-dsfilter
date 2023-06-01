@@ -1,0 +1,28 @@
+.form-container {
+    display: grid;
+    row-gap: 20px;
+    width: 200px;
+}
+
+.form-container button,
+input {
+    height: 40px;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+.form-container input::placeholder {
+    color: var(--color-tertiary)
+}
+
+.form-container input {
+    border: 1px solid var(--color-tertiary)
+}
+
+.form-container button {
+    border: none;
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+    font-size: 16px;
+    font-weight: 700;
+}

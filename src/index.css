@@ -4,6 +4,8 @@
   --color-primary: #55BC04;
   --color-secondary: #FFF;
   --color-tertiary: #C2C2C2;
+  --color-font-primary: #6F6F6F;
+  --color-font-secondary: #55BC04;
 }
 
 * {
@@ -19,14 +21,14 @@ a:hover {
   color: unset;
 }
 
-.container{
+.container {
   max-width: 960px;
-  width:100%;
+  width: 100%;
   margin: 0 auto;
   padding: 20px 0;
 }
 
-section{
+section {
   background-color: var(--color-secondary);
   border-radius: 5px;
   padding: 20px;
