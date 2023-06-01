@@ -1,22 +1,13 @@
-import { Card } from '../Card';
-import * as productService from '../../services/product-service.ts'
-import './styles.css';
-import { useEffect, useState } from 'react';
 import { ProductDTO } from '../../models/product';
+import { Card } from '../Card';
+import './styles.css';
 
-export default function Listing()
-{
+type Props = {
+    products: ProductDTO[]
+}
 
-    const [products, setProducts] = useState<ProductDTO[]>([]);
-
-    useEffect(
-        () => 
-        {
-            setProducts(productService.findByPrice(0, 10000));
-        },
-        [products]
-    )
-
+export default function Listing({ products }: Props)
+{    
     return (
         <section className="listing-container">
             {
