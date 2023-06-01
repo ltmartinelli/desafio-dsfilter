@@ -1,4 +1,4 @@
-header{
+header {
     background-color: var(--color-primary);
     height: 70px;
     display: flex;
@@ -6,17 +6,16 @@ header{
     color: var(--color-secondary);
 }
 
-header h1{
+header h1 {
     font-size: 20px;
 }
 
-header p{
+header p {
     font-size: 12px;
 }
 
-.header-container{
+.header-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-

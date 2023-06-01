@@ -7,7 +7,7 @@ type Props = {
 }
 
 export default function Listing({ products }: Props)
-{    
+{
     return (
         <section className="listing-container">
             {
