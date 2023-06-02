@@ -12,7 +12,7 @@ export default function ListingBody()
     const [products, setProducts] = useState<ProductDTO[]>(productService.findByPrice(0, Number.MAX_VALUE));
 
 
-    const { contextProductCount, setContextProductCount } = useContext(ContextProductCount);
+    const { setContextProductCount } = useContext(ContextProductCount);
 
     useEffect(() =>
     {
